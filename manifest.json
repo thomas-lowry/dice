@@ -1,0 +1,23 @@
+{
+  "name": "Dice",
+  "id": "821454917506828941",
+  "api": "1.0.0",
+  "main": "code.js",
+  "menu": [
+    {"name": "Roll 1 die", "command": "rollOne"},
+    {"name": "Roll 2 dice", "command": "rollTwo"},
+    {"name": "Roll 3 dice", "command": "rollThree"},
+    {"name": "Roll 4 dice", "command": "rollFour"},
+    {"name": "Roll 5 dice", "command": "rollFive"},
+    {"name": "Roll 6 dice", "command": "rollSix"}
+  ],
+  "relaunchButtons": [
+    {"name": "Roll 1 die", "command": "rollOne"},
+    {"name": "Roll 2 dice", "command": "rollTwo"},
+    {"name": "Roll 3 dice", "command": "rollThree"},
+    {"name": "Roll 4 dice", "command": "rollFour"},
+    {"name": "Roll 5 dice", "command": "rollFive"},
+    {"name": "Roll 6 dice", "command": "rollSix"},
+    {"name": "Reroll selected dice", "command": "rerollSelected", "multipleSelection": true}
+  ]
+}
